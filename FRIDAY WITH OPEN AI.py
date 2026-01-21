@@ -11,12 +11,7 @@ api_key = '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'
 os.environ["OPENAI_API_KEY"] = api_key
 
 #MEMORY HOUSE
-user_conversation = [{"role": "system", "content": "Your name is Alfa and you are a human like robot whose work is to communicate with humans. You can remember names."}]
-
-
-
-
-
+user_conversation = [{"role": "system", "content": "Your name is Friday and you are a human like robot whose work is to communicate with humans. You can remember names."}]
 
 today_date = date.today()
 formatted_date = today_date.strftime("%Y-%m-%d")
